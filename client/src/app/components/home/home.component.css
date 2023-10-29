@@ -1,0 +1,397 @@
+.home-container {
+  height: 100vh;
+  background-color: rgb(206, 232, 255);
+  background-image: url("https://images7.alphacoders.com/681/681111.jpg");
+  background-size: cover;
+  overflow: auto;
+}
+
+#banner {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  #banner {
+    margin-top: 60px;
+  }
+}
+
+.body-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: auto;
+}
+
+.input-container {
+  width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(52, 52, 52);
+  padding: 20px;
+  min-height: 60px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 975px) {
+  .input-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.input-field {
+  height: 50%;
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 975px) {
+  .input-field {
+    width: 100%;
+  }
+}
+
+.section-about {
+  min-height: 100vh;
+}
+
+.contact-section {
+  min-height: 60vh;
+  background-color: rgb(13, 14, 14);
+}
+
+.main-container {
+  height: 90vh;
+  overflow: auto;
+}
+
+.button {
+  background-color: rgb(73, 130, 230);
+  width: 120px;
+  height: 44px;
+  border: 0;
+  outline: none;
+  border-radius: 2px;
+}
+
+/* .card{
+    box-shadow: 0 10px 25px #3a3a3a;
+} */
+
+footer {
+  background-color: #cecece;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 0 0 33.33%;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
+
+.seat {
+  width: 60px;
+  height: 30px;
+  border: 1px solid grey;
+}
+
+.seat:hover {
+  background-color: #ffb22e;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.form-container {
+  display: flex;
+  overflow: auto;
+}
+
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.button-container {
+  margin-top: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  /* justify-content: end; */
+}
+
+.list-inline-item {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  background-color: #333;
+}
+/* CSS for hover effect on the "Search" button */
+.button:hover {
+  background-color: #aadc12; /* Change to the desired background color */
+  color: rgb(54, 175, 205); /* Change to the desired text color */
+}
+/* Custom styles for the departure dropdown */
+.departure-dropdown {
+  font-size: 16px; /* Adjust the font size as needed */
+  height: 40px;
+  width: 200px; /* Adjust the height as needed */
+  color: #e7c930;
+}
+.destination-dropdown {
+  font-size: 16px; /* Adjust the font size as needed */
+  height: 40px;
+  width: 200px; /* Adjust the height as needed */
+  color: #e7c930;
+}
+.journey-date {
+  font-size: 16px; /* Adjust the font size as needed */
+  height: 40px;
+  width: 200px; /* Adjust the height as needed */
+  color: #e7c930;
+}
+.dept {
+  color: rgb(23, 21, 21);
+}
+.dest {
+  color: rgb(10, 9, 9);
+}
+.journey {
+  color: rgb(16, 14, 14);
+}
+/* Custom styles for the input container with a background image */
+.input-container {
+  /* Add a background image */
+  background-image: url("https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+
+  /* Add padding to create some space between content and box edges */
+  padding: 20px;
+
+  /* Add rounded corners to the box */
+  border-radius: 10px;
+
+  /* Add a box shadow for a 3D effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Add a border for additional styling (optional) */
+  border: 1px solid #ddd;
+}
+.h1 {
+  color: aqua;
+}
+/* Custom styles for the big search button */
+/* Custom styles for the input-container */
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left; /* Center the content horizontally */
+  align-items: flex-end; /* Align fields to the bottom */
+  gap: 20px; /* Add spacing between fields */
+}
+
+/* Custom styles for the input-field-container */
+.input-field-container {
+  flex: 1;
+  display: flex;
+  align-items: left;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Custom styles for the button-container */
+.button-container {
+  flex-basis: 100%;
+  margin-top: 15px; /* Add spacing between fields and button */
+  justify-content: center; /* Center the button horizontally */
+  align-items: center;
+  align-content: center;
+}
+.big-button {
+  font-size: 15px;
+  padding: 10px 100px;
+}
+.p {
+  color: rgb(248, 146, 229);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  align-items: center;
+}
+
+.scrollable-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.scrollable-box {
+  width: 350px;
+  background-color: #fff;
+  margin-right: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrollable-box:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+}
+
+p {
+  margin-bottom: 0;
+  color: #666;
+  max-height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.show-tooltip {
+  max-height: none; /* Show full content on tooltip */
+  overflow: visible; /* Allow content to overflow for tooltip */
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.scrollable-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.scrollable-box {
+  width: 350px;
+  background-color: #fff;
+  margin-right: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+}
+
+p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+.mission-vision {
+  background-color: #ffc107;
+}
+
+.user-benefits {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.traveler-centric {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.global-reach {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.partnerships {
+  background-color: #e677c3;
+  color: #fff;
+}
+/* Add a background image to the "Contact Us" section */
+.contact-section {
+  background-image: url("https://images8.alphacoders.com/371/371683.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.footer1 {
+  background-image: url("https://images8.alphacoders.com/371/371683.jpg");
+  background-size: cover;
+  background-position: center;
+}
